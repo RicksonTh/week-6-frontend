@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Main from './pages/Main';
 
-const App = () => <Main />;
+import Routes from "./routes";
+
+const App = () => <Routes />;
 
 export default App;
 //Statefull: componentes que têm state

@@ -22,7 +22,9 @@ handleSubmit = async e => {
     //Aqui vai o corpo da requisição. Não precisa ser em json, pois o axios já converte
   });
 
-  console.log(response.data);
+  this.props.history.push(`/box/${response.data._id}`);
+  //Props são propriedades dos componentes (onSubmit, src etc)
+  //Esse comando que vai ser usado para redirecionar o usuário para outro página
 };
 
 handleInputChange = e => {
