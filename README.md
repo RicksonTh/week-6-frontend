@@ -1,4 +1,4 @@
-# RocketBox
+# MyBox
 
 Este projeto é uma aplicação frontend que foi desenvolvida durante a semana Omnistack 6.0 da Rocketseat utilizando ReactJs.
 
